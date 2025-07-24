@@ -14,8 +14,4 @@ public class IndexController {
     return Map.of("message", "Hello World");
   }
 
-  @GetMapping("guestbook/list")
-  public void listForm(){
-
-  }
 }
