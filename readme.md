@@ -7,3 +7,8 @@
 - `GuestbookServiceImpl`에서 `GuestbookService` 주입 실패 오류 발생
   - 원인: 테스트 클래스에서 구현체를 직접 대상으로 지정하여 ApplicationContext 생성 실패
   - 해결: `@Service` 누락 여부 확인 및 테스트 클래스 명확히 분리 (`GuestbookServiceTest` 등)
+
+## 2025-07-24
+
+- PageRequestDTO, PageRequestDTO 생성
+- 검색 기능 구현
